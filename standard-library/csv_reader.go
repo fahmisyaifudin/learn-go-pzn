@@ -9,7 +9,7 @@ import (
 
 func main()  {
 	csvString := "m,fahmi,syaifudin\n" +
-		"kamilatu,qurrotu'aini,hanifah"
+		"mohamad,fahmi,syaifudin"
 
 	reader := csv.NewReader(strings.NewReader(csvString))
 	for {

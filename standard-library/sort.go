@@ -28,7 +28,7 @@ func main()  {
 	users := []User{
 		{ "Fahmi", 25 },
 		{ "Sasa", 21 },
-		{ "Kamila", 22 },
+		{ "Kyoshin", 5 },
 	}
 	sort.Sort(UserSlice(users))
 	fmt.Println(users)	

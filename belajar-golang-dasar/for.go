@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main()  {
-	names := []string{"Kamilatu", "Q", "Hanifah"}
+	names := []string{"M", "Fahmi", "Syaifudin"}
 	for i := 0; i < len(names); i++ {
 		fmt.Println(names[i])
 	}

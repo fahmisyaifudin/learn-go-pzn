@@ -2,17 +2,17 @@ package main
 
 import "fmt"
 
-type Woman struct {
+type Men struct {
 	Name string
 }
 
-func (woman *Woman) isPretty()  {
-	woman.Name = woman.Name + " is pretty"
+func (men *Men) isPretty()  {
+	men.Name = men.Name + " is handsome"
 }
 
 func main()  {
-	name1 := Woman{
-		Name: "Kamila",
+	name1 := Men{
+		Name: "Fahmi",
 	}
 
 	name1.isPretty()
